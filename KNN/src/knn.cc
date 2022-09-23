@@ -56,18 +56,7 @@ void knn::find_knearest(data * query_point)  //if K~N,O(N^2);if K=2 O(~N);if qui
     } 
 
 }
-void knn::set_training_data(std::vector<data *> *vect)
-{
-    training_data=vect;
-}
-void knn::set_test_data(std::vector<data *> *vect)
-{
-    test_data=vect;
-}
-void knn::set_validation_data(std::vector<data *> *vect)
-{
-    validation_data=vect;
-}
+
 void knn::set_k(int val)
 {
     k=val;

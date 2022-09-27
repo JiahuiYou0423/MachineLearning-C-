@@ -84,7 +84,7 @@ int dataSet::get_data_size()
 {
     return dataSize;
 }
-
+/*
 int main()
 {
     dataSet *ds=new dataSet;
@@ -106,3 +106,4 @@ int main()
 
     return 0;
 }
+*/
